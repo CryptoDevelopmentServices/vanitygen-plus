@@ -995,8 +995,8 @@ main(int argc, char **argv)
 			if (strcmp(optarg, "EGG")== 0) {
 				fprintf(stderr,
 					"Decrypting NestEGG Coin Address\n");
-					addrtype_opt = 33;
-					privtype_opt = 161;
+					addrtype = 33;
+					privtype = 161;
 					break;
 			}
 			else
