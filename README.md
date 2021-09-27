@@ -61,27 +61,27 @@ Windows GPU: `oclvanitygen.exe -C LIST`
 A list of all the supported crypto coins will be output.  
 
 Choose your coin from the list noting the ARGUMENT needed for the coin located in the left hand column.  
-For TR3B it is simply TR3B.  For Bitcoin it is BTC.  Etc...  
+For EGG it is simply EGG.  For Bitcoin it is BTC.  Etc...  
 
-**Now lets generate a TR3B address with the prefix "ASTRA":**  
-Linux CPU: `./vanitygen -C TR3B -o results.txt -i -k ASTRA`  
-Linux GPU: `./oclvanitygen -C TR3B -o results.txt -i -k ASTRA`  
-Windows CPU: `vanitygen.exe -C TR3B -o results.txt -i -k ASTRA`  
-Windows GPU: `oclvanitygen.exe -C TR3B -o results.txt -i -k ASTRA`  
+**Now lets generate a EGG address with the prefix "EGG":**  
+Linux CPU: `./vanitygen -C EGG -o results.txt -i -k EGG`  
+Linux GPU: `./oclvanitygen -C EGG -o results.txt -i -k EGG`  
+Windows CPU: `vanitygen.exe -C EGG -o results.txt -i -k EGG`  
+Windows GPU: `oclvanitygen.exe -C EGG -o results.txt -i -k EGG`  
 
- * `-C TR3B` : Chooses the ASTRA coin  
+ * `-C EGG` : Chooses the EGG coin  
  * `-o results.txt` : saves the matches to results.txt  
  * `-i` : case-Insensitive(do not add this flag to match exact case)  
  * `-k` : keep going even after match is found(do not add this flag to stop after the first match)  
- * `ASTRA` : the address you are searching for(TR3B addresses start with "A")  
+ * `EGG` : the address you are searching for(EGG addresses start with "A")  
 
 Example output of above command:
 
-* Generating TR3B Address  
+* Generating EGG Address  
 * Difficulty: 4553521  
-* TR3B Pattern: ASTRA
-* TR3B Address: ASTRAKXaGBcL8tHQDgmhp3kLFF4EwA6KZh
-* TR3B Privkey: 3o7Lt4GBeXrTcDzMqLHrHSjHMLGpbSu46BpnssQNGHAoW1yEJ9W
+* EGG Pattern: EGG
+* EGG Address: EGGKXaGBcL8tHQDgmhp3kLFF4EwA6KZh
+* EGG Privkey: 3o7Lt4GBeXrTcDzMqLHrHSjHMLGpbSu46BpnssQNGHAoW1yEJ9W
 
 
 **If you have dependency errors on Linux  
@@ -100,7 +100,7 @@ wget http://ftp.us.debian.org/debian/pool/main/g/glibc/libc6-udeb_2.24-11+deb9u3
 dpkg -i libc6-udeb_2.24-11+deb9u3_amd64.udeb
 wget http://ftp.us.debian.org/debian/pool/main/o/openssl1.0/libcrypto1.0.2-udeb_1.0.2l-2+deb9u3_amd64.udeb
 dpkg -i libcrypto1.0.2-udeb_1.0.2l-2+deb9u3_amd64.udeb
-rm libc6-udeb_2.24-11+deb9u3_amd64.udeb && rm libcrypto1.0.2-udeb_1.0.2l-2+deb9u3_amd64.udeb 
+rm libc6-udeb_2.24-11+deb9u3_amd64.udeb && rm libcrypto1.0.2-udeb_1.0.2l-2+deb9u3_amd64.udeb
 ```
 -----
 Encrypting and Decrypting a vanitygen or oclvanitygen private key  
@@ -143,7 +143,7 @@ Current List of Available Coins for Address Generation
 |AIB | Advanced Internet Block by IOBOND | A  |
 |ANC | Anoncoin | A  |
 |ARS | Arkstone | A  |
-|TR3B | Astracoin | A |
+|EGG | EGGcoin | A |
 |ATMOS | Atmos | N  |
 |AUR | Auroracoin | A  |
 |AXE | Axe | P |
