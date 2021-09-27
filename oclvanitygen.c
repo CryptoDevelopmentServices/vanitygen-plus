@@ -223,6 +223,7 @@ main(int argc, char **argv)
 					"DOPE : Dopecoin : 4\n"
 					"DVC : Devcoin : 1\n"
 					"EFL : Electronic-Gulden-Foundation : L\n"
+					"EGG : NestEgg-Coin : E\n"
 					"EMC : Emercoin : E\n"
 					"FAIR : Faircoin2 : f\n"
 					"FLOZ : FLOZ : F\n"
@@ -717,6 +718,14 @@ main(int argc, char **argv)
 					"Decrypting Astracoin Address\n");
 					addrtype = 23;
 					privtype = 83;
+					break;
+			}
+			else
+			if (strcmp(optarg, "EGG")== 0) {
+				fprintf(stderr,
+					"Decrypting NestEGG Coin Address\n");
+					addrtype_opt = 33;
+					privtype_opt = 161;
 					break;
 			}
 			else
