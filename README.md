@@ -2,7 +2,9 @@
 Vanitygen PLUS!  
 -----
 
-**Download the latest binary from: https://github.com/CryptoLover705/vanitygen-plus !**  
+# To Compile
+ + sudo apt-get install libpcre3-dev
+ + make
 
 Note: For generating a Zcash or Zclassic address please see the Z repo: https://github.com/exploitagency/vanitygen_z
 
